@@ -1,3 +1,124 @@
-body {
+html, body {
+	margin: 0px;
+	height: 100%;
+	text-align: center;
+	font-family: Raleway, Avenir;
+}
 
+h1 {
+	background: #C8EEFF;
+	padding: 20px;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+img {
+	width: 50%;
+}
+
+button {
+	width: 30%;
+	padding: 20px 0;
+	border: 4px solid #C8EEFF;
+	border-radius: 100px;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+input {
+	border: 1px solid #ABADAD;
+	border-radius: 30px;
+	width: 400px;
+	height: 35px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+}
+
+a {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	width: 50%;
+}
+
+li {
+	border-bottom: 1px solid #ABADAD;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+	text-align: left;
+}
+
+.header {
+	background: #C8EEFF;
+}
+
+.container {
+	/*background: pink;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon {
+	fill: #ABADAD;
+	width: 25px;
+	height: auto;
+}
+
+
+
+
+/*@media only screen and (max-width: 1000px) {
+	.container {
+		background: pink;
+		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 1001px) {
+	.container {
+		background: blue;
+		width: 500px;
+		margin: 0 auto;
+	}
+}*/
+
+.filled {
+	background: #C8EEFF;
+}
+
+.outlined {
+	background: white;
+}
+
+#center {
+	height: 100%;
 }
